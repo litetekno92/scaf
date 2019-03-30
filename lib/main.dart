@@ -29,8 +29,6 @@ class MyHomePage extends StatelessWidget {
         child: new Scaffold(
             backgroundColor: Colors.amber,
             appBar: AppBar(title: Text('Hello Flutter'), centerTitle: true),
-            floatingActionButtonLocation:
-                FloatingActionButtonLocation.centerDocked,
             floatingActionButton: FloatingActionButton(
               onPressed: () {},
               tooltip: 'Increment',
