@@ -25,11 +25,16 @@ class MyHomePage extends StatelessWidget {
   final String title;
 
   @override
-  Widget build(BuildContext context) {
-    return Container(
-        padding: EdgeInsets.zero,
-        child: new Scaffold(
-          backgroundColor: Colors.amber,
-        ));
-  }
+Widget build(BuildContext context) {
+  return Container(
+      padding: EdgeInsets.zero,
+      child: new Scaffold(
+        backgroundColor: Colors.amber,
+        appBar: AppBar(
+          title: Text('Hello Flutter AppBar'),
+          centerTitle: true,
+          leading: Icon(Icons.menu),
+        ),
+      ));
+}
 }
