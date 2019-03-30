@@ -35,7 +35,7 @@ class MyHomePage extends StatelessWidget {
               onPressed: () {},
               tooltip: 'Increment',
               child: Icon(Icons.add),
-              elevation: 2.0,
+              elevation: 6.0,
             ),
             drawer: Drawer(
               child: ListView(
